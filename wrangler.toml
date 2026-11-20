@@ -1,0 +1,13 @@
+name = "cove-keys"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+kv_namespaces = [
+  { binding = "KV", id = "47a0685c25c94605a99d0e08cbfbb8c0" }
+]
+
+[vars]
+RELEASED = "false"
+MIN_AMOUNT = "8"
+ALLOW_ORIGIN = "https://cosmic4445.github.io"
+
