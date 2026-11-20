@@ -1,8 +1,8 @@
 window.COVE = {
   api: 'https://cove-keys.cuberalted.workers.dev',
   links: {
-    preorder: 'https://www.buymeacoffee.com/your-page',
-    donate: 'https://www.buymeacoffee.com/your-page'
+    preorder: 'https://buymeacoffee.com/cuberthedev/e/600320',
+    donate: 'https://buymeacoffee.com/cuberthedev/e/600271'
   },
   downloads: {
     win: '',
@@ -10,3 +10,4 @@ window.COVE = {
     linux: ''
   }
 }
+
