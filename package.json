@@ -1,0 +1,9 @@
+{
+  "name": "cove-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "keygen": "node server/keygen.js"
+  }
+}
