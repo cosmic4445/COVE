@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 { "type": "module", "private": true }
+=======
+{
+  "name": "cove-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "keygen": "node server/keygen.js"
+  }
+}
+>>>>>>> 6d82d9392afcec26899027f53b9decfe3322a19f

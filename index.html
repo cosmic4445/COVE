@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cove: virtual machines without the setup</title>
+<meta name="description" content="Pick a system and get a working desktop. Snapshots, clones and disposable machines in one small app.">
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="">Cove</a>
+    <div>
+      <a href="#features">Features</a>
+      <a href="#systems">Systems</a>
+      <a href="#faq">FAQ</a>
+      <a href="key.html">Already pre-ordered?</a>
+      <a class="btn primary" href="#" data-link="preorder">Pre-order</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>Virtual machines<br>without the setup.</h1>
+    <p>Pick a system and get a working desktop. Snapshots, clones and disposable machines in one small app.</p>
+    <a class="btn primary" href="#" data-link="preorder">Pre-order Cove</a>
+    <a class="btn" href="#features">See what it does</a>
+  </div>
+
+  <section id="features">
+    <h2>Everything you expect, none of the fuss</h2>
+    <p class="lead">Cove runs on QEMU, so it handles real hardware acceleration and almost any guest.</p>
+    <div class="grid">
+      <div class="card"><h3>One click to a desktop</h3><p>Downloads, verifies and boots Linux for you. No hunting for ISOs.</p></div>
+      <div class="card"><h3>Fast by default</h3><p>Uses KVM, Hypervisor.framework or WHPX automatically and falls back to emulation only when it must.</p></div>
+      <div class="card"><h3>Disposable machines</h3><p>Boot a throwaway copy, break anything, and close it to leave nothing behind.</p></div>
+      <div class="card"><h3>Snapshots and clones</h3><p>Save a state, roll back, or duplicate a machine in a click.</p></div>
+      <div class="card"><h3>Windows, unattended</h3><p>Bring Microsoft's evaluation ISO and Cove installs it for you, with optional tweaks.</p></div>
+      <div class="card"><h3>Light on your system</h3><p>The app is small. Only the operating systems take up space.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <p class="lead">Three steps from nothing to a running machine.</p>
+    <div class="grid">
+      <div class="card step"><b>1</b><h3>Pick a system</h3><p>Choose from the list or bring your own ISO.</p></div>
+      <div class="card step"><b>2</b><h3>Cove does the rest</h3><p>It downloads, checks the checksum and sets up the disk.</p></div>
+      <div class="card step"><b>3</b><h3>Press start</h3><p>Your desktop is ready. Snapshot it whenever you like.</p></div>
+    </div>
+  </section>
+
+  <section id="systems">
+    <h2>Systems</h2>
+    <p class="lead">Ready to create from inside the app.</p>
+    <div class="chips">
+      <span>Ubuntu Desktop</span><span>Ubuntu Server</span><span>Kubuntu</span><span>Xubuntu</span>
+      <span>Debian</span><span>Debian Live GNOME</span><span>Debian Live Xfce</span><span>Windows (your evaluation ISO)</span><span>Any ISO you have</span>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Cove is in development</h2>
+    <p>Pre-order now and your key will be waiting the day it is ready to use.</p>
+    <a class="btn primary" href="#" data-link="preorder">Pre-order Cove</a>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p id="dlLead" class="lead">Downloads open when Cove is released.</p>
+    <div class="downloads">
+      <a class="btn off" data-download="win">Windows</a><a class="btn off" data-download="mac">macOS</a><a class="btn off" data-download="linux">Linux</a>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Questions</h2>
+    <details><summary>Does Cove include Windows?</summary><p>No. Windows can't be redistributed. Download Microsoft's free evaluation ISO and Cove installs it for you.</p></details>
+    <details><summary>What do I need installed?</summary><p>QEMU. Cove picks the fastest accelerator your computer supports.</p></details>
+    <details><summary>Does it work on my computer?</summary><p>Windows, macOS and Linux are all targeted.</p></details>
+    <details><summary>What does Cove send over the internet?</summary><p>It checks your key with this site and downloads operating systems from their official mirrors.</p></details>
+    <details><summary>I pre-ordered. What now?</summary><p>Open Cove, choose "Already pre-ordered?" and enter your key.</p></details>
+  </section>
+
+  <footer>
+    <span>Cove</span>
+    <a href="#" data-link="donate">Support the project</a>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

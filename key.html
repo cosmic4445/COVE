@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get your key | Cove</title>
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="">Cove</a>
+    <div><a class="btn" href="index.html">Back</a></div>
+  </nav>
+
+  <section class="narrow">
+    <h2>Get your key</h2>
+    <p class="lead">Enter the email you used to pre-order and your key will appear here.</p>
+
+    <form id="form">
+      <input name="email" type="email" placeholder="you@example.com" required autocomplete="email">
+      <button class="btn primary">Get my key</button>
+    </form>
+
+    <div id="out" hidden>
+      <div id="keyValue" class="keybox"></div>
+      <button id="copy" class="btn">Copy</button>
+      <p class="lead">Open Cove, choose "Already pre-ordered?" and paste it in.</p>
+    </div>
+
+    <p id="err" class="error" hidden></p>
+  </section>
+
+  <script src="js/config.js"></script>
+  <script src="js/key.js"></script>
+</body>
+</html>
