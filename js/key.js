@@ -9,7 +9,7 @@ const messages = {
 form.onsubmit = async e => {
   e.preventDefault()
   err.hidden = true
-  const res = await fetch('/api/claim', {
+  const res = await fetch(window.COVE.api + '/api/claim', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     body: JSON.stringify({ email: form.email.value })

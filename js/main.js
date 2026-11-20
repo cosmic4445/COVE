@@ -1,10 +1,10 @@
-const { links, downloads } = window.COVE
+const { api, links, downloads } = window.COVE
 
 document.querySelectorAll('[data-link]').forEach(a => {
   a.href = links[a.dataset.link]
 })
 
-fetch('/api/status')
+fetch(api + '/api/status')
   .then(r => r.json())
   .then(({ released }) => {
     if (!released) return
